@@ -2,6 +2,7 @@
 
 require './functions.php'
 
+
 ?>
 
 
@@ -12,20 +13,12 @@ require './functions.php'
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width  initial-scale=1.0">
+
+  <link rel="stylesheet" href="css/style.css">
+
   <title>Password Generator</title>
 </head>
-<style>
-  h1, h2,h3,form{
-    text-align: center;
-  }
-  input,button{
-    padding: 10px 15px;
-  }
-  .ris{
-    text-align: center;
-  }
 
-</style>
 <body>
 
   <div class="cont-title" >
@@ -42,9 +35,6 @@ require './functions.php'
 
   </form>
 
-  <div class="ris"  >
-    <h3> La tua password è: <?php echo $all ?></h3> 
-  </div>
 
 </body>
 </html>
